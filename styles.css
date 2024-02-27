@@ -407,7 +407,10 @@ footer{
         - add the small box shadow, using the variable in the root
 */
 #section2 a:first-of-type:hover{
-
+background-color: var(--dk-blue);
+color: var(--white);
+border-color;: var(--lt-blue);
+box-shadow: var(--box-shadow-sm);
 }
 
 #section2 a:last-of-type:hover{
@@ -431,7 +434,11 @@ footer{
         - add the small filter drop shadow from the CSS variables in the root
 */
 #section3 img{
-    
+    display: block;
+    width: 200px;
+    height: auto;
+    margin: 0 auto;
+    filter: var(--filter-shadow-sm);
 }
 
 #section3 div::before{
